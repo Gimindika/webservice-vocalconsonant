@@ -1,7 +1,7 @@
 # Dockerfile References: https://docs.docker.com/engine/reference/builder/
 #IMPORTANT : in some case localhost:8080 isn't accessible, instead the app runs and accessible on docker-machine ip
 #run command on terminal : docker-machine ip
-#example : http://192.168.99.100:8080
+#example : http://192.168.99.100:8080/vocalconsonant/osama
 
 # Start from the latest golang base image
 FROM golang:latest
